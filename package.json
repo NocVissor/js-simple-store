@@ -1,0 +1,11 @@
+{
+  "name": "simple-store",
+  "version": "1.0.0",
+  "description": "Simple store for javascript based on callbacks",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "PolarSidus",
+  "license": "MIT"
+}
