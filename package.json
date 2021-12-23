@@ -7,5 +7,13 @@
     "test": "test"
   },
   "author": "PolarSidus",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolarSidus/js-simple-store.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PolarSidus/js-simple-store/issues"
+  },
+  "homepage": "https://github.com/PolarSidus/js-simple-store#readme"
 }
