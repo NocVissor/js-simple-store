@@ -17,6 +17,7 @@ export default class Store{
         }
     }     
     static addCallback(key, callback){
+        console.log('add-callback');
         if(Store.state[key] !== undefined){
             if(Store.state[key].callbacks === undefined){
                 Store.state[key].callbacks = [callback];
