@@ -32,7 +32,7 @@ export default class Store{
         if(Store.state[key] !== undefined){
             if(Store.state[key].callbacks !== undefined){
                 Store.state[key].callbacks.forEach(element => {
-                    element(Store.state[key].val, val);
+                    element({from: Store.state[key].val, to: val});
                 });
             }
             Store.state[key].val = val;
