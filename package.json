@@ -1,6 +1,6 @@
 {
   "name": "js-simple-store",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Simple store for javascript based on callbacks",
   "main": "index.js",
   "scripts": {
